@@ -17,7 +17,7 @@ export function Deploy() {
           <GitMerge strokeWidth={2.5} size={30} />
         </h1>
       </div>
-      <div className="space-y-3 w-full border-x py-2 border-b" />
+      {/*<div className="space-y-3 w-full border-x border-b" />*/}
     </div>
   );
 }

@@ -20,7 +20,7 @@ export function Scale() {
           </Button>
         </h1>
       </div>
-      <div className="space-y-3 w-full border-x py-2 border-b" />
+      {/*<div className="space-y-3 w-full border-x py-2 border-b" />*/}
     </div>
   );
 }
