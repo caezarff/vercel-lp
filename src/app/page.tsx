@@ -1,6 +1,7 @@
 import { Connected } from "@/components/home/connected";
 import { Deploy } from "@/components/home/deploy";
 import { Hero } from "@/components/home/hero";
+import { Ovservality } from "@/components/home/ovservality";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Deploy />
       <Connected />
+      <Ovservality />
     </div>
   );
 }
