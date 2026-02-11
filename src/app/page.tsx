@@ -1,5 +1,6 @@
 import { Connected } from "@/components/home/connected";
 import { Deploy } from "@/components/home/deploy";
+import { Gateway } from "@/components/home/gateway";
 import { Hero } from "@/components/home/hero";
 import { Ovservality } from "@/components/home/ovservality";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <Deploy />
       <Connected />
       <Ovservality />
+      <Gateway />
     </div>
   );
 }
